@@ -6,6 +6,6 @@ app = Flask(__name__)
 def home():
     return 'MonkeyTaggers The Best'
 
-@app.route('/about')
+@app.route('/Cool')
 def about():
-    return 'About'
+    return 'meow'
