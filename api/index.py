@@ -9,8 +9,8 @@ from datetime import datetime, timedelta
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = ""
-        self.SecretKey: str = ""
+        self.TitleId: str = "1E73C"
+        self.SecretKey: str = "XJUNZO7QM9W8E19GM1P98PPUIX5GBQMGRHJYFDB7ESYR9U9BGM"
         self.ApiKey: str = ""
 
     def get_auth_headers(self):
