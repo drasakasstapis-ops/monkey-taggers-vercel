@@ -11,7 +11,7 @@ class GameInfo:
     def __init__(self):
         self.TitleId: str = "1E73C"
         self.SecretKey: str = "XJUNZO7QM9W8E19GM1P98PPUIX5GBQMGRHJYFDB7ESYR9U9BGM"
-        self.ApiKey: str = ""
+        self.ApiKey: str = "OC|1501970852989222|e3649fc133c83c9a86fcdb739344ea43"
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
